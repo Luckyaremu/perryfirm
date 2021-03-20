@@ -18,7 +18,7 @@ const Hero = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>
-                    WELCOME TO TRENA GENEREAL SERVICES
+                    WELCOME TO TRENA GENERAL SERVICES
                 </HeroH1>
                 <HeroP>
                     A place where we make your goods clearing easy, efficient and affordable
