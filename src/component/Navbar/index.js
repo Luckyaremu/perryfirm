@@ -4,14 +4,14 @@ import { Nav, NavbarContainer,
     NavLogo, MobileIcon, 
     NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from "./NavbarElements";
 
-const Navbar = () => {
+const Navbar = ( {toggle}) => {
     return (
         <>
         <Nav>
             <NavbarContainer>
                 <NavLogo to="/">Dollar</NavLogo>
                 
-                <MobileIcon>
+                <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
                 
@@ -23,11 +23,11 @@ const Navbar = () => {
                         <NavLinks to="services">Services</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="contact">Contact</NavLinks>
+                        <NavLinks to="update">Update</NavLinks>
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                   <NavBtnLink to="/more">More about us</NavBtnLink>
+                   <NavBtnLink to="/contact">Contact</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>

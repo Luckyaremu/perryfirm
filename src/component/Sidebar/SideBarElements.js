@@ -16,7 +16,7 @@ top: 0;
 left: 0;
 transition: 0.3s ease-in-out;
 opacity: ${({isOpen}) =>(isOpen ? '100%' : '0')};
-top: ${({isOpen}) => (isOpen ? '0' : '-100')};
+top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
 `;
 
 
@@ -44,7 +44,7 @@ grid-template-columns: 1fr;
 grid-template-rows: repeat(4, 80px);
 text-align: center;
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 480px){
     grid-template-rows: repeat(4, 80px);
 }
 `;
@@ -80,6 +80,8 @@ color: #010606;
 font-size: 16px;
 outline: none;
 border: none;
+margin: auto;
+margin-bottom: 20px;
 cursor: pointer;
 transition: all 0.2s ease-in-out;
 text-decoration: none;
