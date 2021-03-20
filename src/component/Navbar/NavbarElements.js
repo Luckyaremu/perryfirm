@@ -106,5 +106,12 @@ font-size: 16px;
 outline: none;
 border: none;
 cursor: pointer;
-transition: all 0.2s ease;
-`
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+
+&:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+}
+`;
