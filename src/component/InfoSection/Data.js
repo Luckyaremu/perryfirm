@@ -1,0 +1,16 @@
+ export const homeObjOne = {
+     id: "about",
+     lightBg: false,
+     lightText: true,
+     lightTextDesc: true,
+     topLine: "Trena General Services",
+     headline: "We deal mainly on cargo clearing",
+     description: "We have access to unlimited credible sources to make your goods clearing easy, efficient and affordable without any hidden charges",
+     buttonLabel: "Get started",
+     imgStart: false,
+     img: require("../../images/svg-1.svg").default,
+     alt: "Cargo",
+     dark: true,
+     primary: true,
+     darkText: false,
+ }
