@@ -66,7 +66,7 @@ import styled from "styled-components";
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? "#f7f8fa" : "010606")};
+    color: ${({lightText}) => (lightText ? "#f7f8fa" : "#010606")};
 
     @media screen and (max-width: 480px){
         fonr-size: 32px;

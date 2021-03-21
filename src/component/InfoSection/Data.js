@@ -13,4 +13,39 @@
      dark: true,
      primary: true,
      darkText: false,
- }
+ };
+
+ export const homeObjTwo = {
+    id: "services",
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: "Unlimited Services",
+    headline: "We deal mainly on cargo clearing",
+    description: "We have access to unlimited credible sources to make your goods clearing easy, efficient and affordable without any hidden charges",
+    buttonLabel: "searvices",
+    imgStart: false,
+    img: require("../../images/svg-2.svg").default,
+    alt: "services",
+    dark: false,
+    primary: false,
+    darkText: true,
+};
+
+
+export const homeObjThree = {
+    id: "update",
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: "Trena General Services",
+    headline: "We deal mainly on cargo clearing",
+    description: "We have access to unlimited credible sources to make your goods clearing easy, efficient and affordable without any hidden charges",
+    buttonLabel: "Get started",
+    imgStart: false,
+    img: require("../../images/svg-3.svg").default,
+    alt: "Cargo",
+    dark: false,
+    primary: false,
+    darkText: true,
+};
