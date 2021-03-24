@@ -33,8 +33,11 @@ padding: 0 50px;
 }
 
 @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10px;
+    display: grid;
+    align-items: center;
+    width: 100%;
 }
 `;
 
@@ -46,7 +49,7 @@ justify-content: flex-start;
 align-items: center;
 border-radius: 10px;
 max-height: 340px;
-padding: 30px;
+padding: 16px;
 box-shodow: 0 1px 3px rgba(0,0,0,0.2);
 transition: all 0.2s ease-in-out;
 
