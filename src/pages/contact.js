@@ -2,7 +2,6 @@ import React from 'react';
 import Icofont from "react-icofont";
 import ConForm from "../component/Contact/Conform";
 import "../component/Contact/Contact.scss";
-import Navbar from "../component/Navbar/index"
 
 const contact = () => {
     const contacts = [
@@ -13,6 +12,7 @@ const contact = () => {
       },
     ];
     const socials = [
+    
       {
         name: "Linked-In",
         status: "https://www.linkedin.com/in/lucky-aremu-24807a145/",
