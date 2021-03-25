@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Video from "../../videos/video.mp4";
 import {Button} from "../ButtonElement"
 import {HeroContainer, HeroBg, VideoBg, HeroContent,
      HeroH1, HeroBtnWrapper, HeroP,
@@ -14,7 +13,7 @@ const Hero = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+                <VideoBg autoPlay loop muted src={"https://res.cloudinary.com/aremucamp/video/upload/v1616663658/video.mp4"} />
             </HeroBg>
             <HeroContent>
                 <HeroH1>

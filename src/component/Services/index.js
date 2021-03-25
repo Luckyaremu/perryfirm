@@ -27,7 +27,7 @@ const Services = () => {
 
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
-                    <ServicesH2>DPR Imports Permit & Nimansa Vessels Registration</ServicesH2>
+                    <ServicesH2>DPR Imports Permit </ServicesH2>
                     <ServicesP>We help reduce fees and process your services</ServicesP>
                 </ServicesCard>
 
