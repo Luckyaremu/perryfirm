@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import Navbar from '../component/Navbar';
 import Sidebar from "../component/Sidebar";
 import HeroSection from "../component/HeroSection";
 import InfoSection from "../component/InfoSection";
@@ -14,11 +14,11 @@ const Home = () => {
     return (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
-           
+            <Navbar toggle={toggle} />
             <HeroSection />
             <InfoSection {...homeObjOne}/>
             <Services />
-            <InfoSection {...homeObjThree} />
+            <InfoSection {...homeObjThree}/>
             <Footer />
         </>
     )

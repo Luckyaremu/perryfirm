@@ -2,6 +2,8 @@ import React from 'react';
 import Icofont from "react-icofont";
 import ConForm from "../component/Contact/Conform";
 import "../component/Contact/Contact.scss";
+import Navbar from "../component/Navbar";
+
 
 const contact = () => {
     const contacts = [
@@ -29,8 +31,11 @@ const contact = () => {
         icon: "github",
       },
     ];
+    
     return (
+      
       <div className="con">
+        <Navbar />
         <div className="con-pre-cont">
           <div className="con-cont">
             <div className="con-cards">
