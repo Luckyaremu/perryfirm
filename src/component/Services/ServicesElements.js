@@ -121,8 +121,9 @@ export const ServicesP = styled.p`
 font-size: 1rem;
 text-align: center;
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
     font-size: 15px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
