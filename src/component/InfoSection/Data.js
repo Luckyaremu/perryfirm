@@ -4,7 +4,7 @@
      lightText: true,
      lightTextDesc: true,
      topLine: "Trena General Services",
-     headline: "We deal mainly on cargo clearing",
+     headline: "We deal mainly on bunker clearing",
      description: "We have access to unlimited credible sources to make your goods clearing easy, efficient and affordable without any hidden charges",
      buttonLabel: "Get started",
      imgStart: false,

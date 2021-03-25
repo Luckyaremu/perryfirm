@@ -21,16 +21,16 @@ const Services = () => {
 
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
-                    <ServicesH2>Naval Armed Escorts</ServicesH2>
+                    <ServicesH2>Naval Armed Escort</ServicesH2>
                     <ServicesP>We help reduce fees and process your services</ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
                     <ServicesH2>DPR Imports Permit </ServicesH2>
-                    <ServicesP>We help reduce fees and process your services</ServicesP>
+                    <ServicesH2>& Nimansa Vessels Registration</ServicesH2>
+                    
                 </ServicesCard>
-
                 
                 <ServicesCard>
                     <ServicesIcon src={Icon4}/>
