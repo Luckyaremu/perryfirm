@@ -24,7 +24,6 @@ const Services = () => {
                     <ServicesH2>Marine Logistics & Haulage</ServicesH2>
                     <ServicesP>@Trena general services, we can clear your vessels within 48 hours with affordable negotiations as agreed with your team</ServicesP>
                </ServicesCard>
-
                 
                 <ServicesCard>
                     <ServicesIcon src={Icon5}/>
