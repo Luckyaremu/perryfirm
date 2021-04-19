@@ -118,6 +118,7 @@ const { status , errors } = sent
         </div>
         <p>Message</p>
         <div className="con-area-cont">
+          
           <textarea
             required
             minLength="10"

@@ -1,7 +1,6 @@
 import React from 'react';
 import {animateScroll as scroll} from "react-scroll";
-import {FooterContainer, FooterLinksWrapper, FooterLinksContainer,
-FooterLinkItems, FooterLinkTitle, FooterLink, FooterWrap, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from "./FooterElements.js";
+import {FooterContainer, FooterWrap, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from "./FooterElements.js";
 
 const Footer = () => {
 
@@ -12,47 +11,6 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrap>
-                <FooterLinksContainer>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle> ABOUT US </FooterLinkTitle>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                        </FooterLinkItems>
-
-                        <FooterLinkItems>
-                            <FooterLinkTitle> ABOUT US </FooterLinkTitle>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle> ABOUT US </FooterLinkTitle>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                        </FooterLinkItems>
-
-                        <FooterLinkItems>
-                            <FooterLinkTitle> ABOUT US </FooterLinkTitle>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                                <FooterLink to="/about">About us</FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/" onClick= {toggleHome}>

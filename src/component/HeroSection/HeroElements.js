@@ -58,6 +58,9 @@ export const HeroH1 = styled.h1`
 color: #01bf71;
 font-size: 48px;
 text-align: center;
+background: -webkit-linear-gradient(#fb9a00,#facb22, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -69,11 +72,14 @@ text-align: center;
 
 export const HeroP = styled.p`
 margin-top: 24px;
-color: #01bf71;
 font-size: 24px;
 text-align: center;
 max-width: 600px;
 font-weight: bold;
+background: -webkit-linear-gradient(#fb9a00,#facb22, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 
 @media screen and (max-width: 768px) {
     font-size: 24px;
@@ -88,6 +94,7 @@ margin-top: 32px;
 display: flex;
 flex-direction: column;
 align-items: center;
+background: linear-gradient(#fb9a00,#facb22, #fff);
 `;
 
 export const ArrowForward = styled(MdArrowForward)`

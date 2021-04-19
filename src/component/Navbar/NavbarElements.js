@@ -30,12 +30,10 @@ max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkR)`
-color: #fff;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5rem;
 display: flex;
-align-items: center;
 margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
@@ -98,7 +96,7 @@ align-items: center;
 
 export const NavBtnLink = styled(LinkR)`
 border-radius: 50px;
-background: #01bf71;
+background: linear-gradient(#fb9a00,#facb22, #fff);
 white-space: nowrap;
 padding: 10px 22px;
 color: #010606;

@@ -18,7 +18,6 @@ margin: 0 auto;
 export const FooterLinksContainer = styled.div`
 display: flex;
 justify-content: center;
-
 @media screen and (max-width: 820px) {
     padding-top: 32px;
 }
@@ -26,7 +25,6 @@ justify-content: center;
 
 export const FooterLinksWrapper = styled.div`
 display: flex;
-
 @media screen and (max-width: 820px){
     flex-direction: column;
 }
@@ -40,7 +38,6 @@ margin: 16px;
 width: 160px;
 box-sizing: border-box;
 color: #fff;
-
 @media screen and (max-width: 420px) {
     margin: 0;
     padding: 10px;
@@ -58,7 +55,6 @@ color: #fff;
 text-decoration: none;
 margin-bottom: 0.5rem;
 font-size: 14px;
-
 &:hover {
     color: #01bf71;
     transition: 0.3s ease-in-out;
@@ -76,7 +72,6 @@ justify-content: space-between;
 align-items: center;
 max-width: 1100px;
 margin: 40px auto 0 auto;
-
 @media screen and (max-width: 820px) {
     flex-direction: column;
     margin-bottom: 100px;
@@ -92,14 +87,14 @@ text-decoration: none;
 font-size: 1.5rem;
 display: flex;
 align-items: center;
-margin-bottom: 16px;
+margin-bottom: 5px;
 font-weight: bold;
 padding: 20px;
 `;
 
 export const WebsiteRights = styled.small`
 color: #fff;
-margin-bottom: 16px;
+margin-bottom: 5px;
 `;
 
 
@@ -108,7 +103,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 width: 240px;
-
 @media screen and (max-width: 820px) {
     display: grid;
     grid-template-row: 1fr 1fr 1fr;
@@ -120,4 +114,3 @@ export const SocialIconLinks = styled.a`
 color: #fff;
 font-size: 24px;
 `;
-

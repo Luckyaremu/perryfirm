@@ -20,7 +20,7 @@ const Hero = () => {
                     WELCOME TO TRENA GENERAL SERVICES
                 </HeroH1>
                 <HeroP>
-                    A place where we make your goods clearing easy, efficient and affordable
+                    A place where we make your products clearing easy, efficient and affordable
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="services" onMouseEnter={onHover} onMouseLeave={onHover}>

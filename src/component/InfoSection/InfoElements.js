@@ -3,7 +3,7 @@ import styled from "styled-components";
 
     export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) =>(lightBg ? '#f9f9f9' : '#010606')};
+    background: ${({lightBg}) =>(lightBg ? '#fff' : '#010606')};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -52,13 +52,16 @@ import styled from "styled-components";
     `;
 
     export const TopLine = styled.p`
-    color: #01bf71;
+
     font-size: 16px;
     line-height: 16px;
     font-weight: 16px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+    background: -webkit-linear-gradient(#fb9a00,#facb22, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     `;
 
     export const Heading = styled.h1`

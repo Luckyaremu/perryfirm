@@ -9,26 +9,8 @@ const contact = () => {
     const contacts = [
       {
         name: "E-mail",
-        status: "aremu.baba70@gmail.com",
+        status: "trenageneralservices@yahoo.com",
         icon: "letter",
-      },
-    ];
-    const socials = [
-    
-      {
-        name: "Linked-In",
-        status: "https://www.linkedin.com/in/lucky-aremu-24807a145/",
-        icon: "linkedin",
-      },
-      {
-        name: "Twitter",
-        status: "https://twitter.com/luckyaremu",
-        icon: "twitter",
-      },
-      {
-        name: "GitHub",
-        status: "https://github.com/Luckyaremu",
-        icon: "github",
       },
     ];
     
@@ -50,13 +32,6 @@ const contact = () => {
                   </div>
                 </div>
               ))}
-              <div className="con-card con-social">
-                {socials.map((social) => (
-                  <a href={social.status} className="soc" key={social.name}>
-                   <Icofont icon={social.icon} />
-                  </a>
-                ))}
-              </div>
             </div>
             <ConForm />
           </div>
