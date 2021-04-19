@@ -73,7 +73,7 @@ justify-content:
 
 export const SidebarRoute = styled(LinkR)`
 border-radius: 50px;
-background: #01bf71;
+background: linear-gradient(#fb9a00,#facb22, #fff);
 white-space: nowrap;
 padding: 16px 64px;
 color: #010606;

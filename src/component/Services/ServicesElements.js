@@ -36,7 +36,7 @@ padding: 0 50px;
 
 @media screen and (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
-    padding: 0 10px;
+    padding: 0 1px;
     display: grid;
     align-items: center;
     margin-bottom: 150px;
@@ -89,8 +89,8 @@ transition: all 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 320px) {
-    height: 430px;
-    width: 145px;
+    height: 420px;
+    width: 150px;
 }
 `;
 
@@ -103,12 +103,10 @@ margin-bottom: 10px;
     height: 160px;
     width: 180px;
 }
-
-@media screen and (max-width: 300px) {
-    height: 150px;
-    width: 100px;
+@media screen and (max-width: 320px) {
+    height: 160px;
+    width: 140px;
 }
-
 `;
 
 

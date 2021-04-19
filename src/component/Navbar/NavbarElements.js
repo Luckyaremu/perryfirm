@@ -33,10 +33,15 @@ export const NavLogo = styled(LinkR)`
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5rem;
+width: 30px;
 display: flex;
 margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
+
+@media screen and (max-width: 320px) {
+    width: 200px;
+}
 `;
 
 
