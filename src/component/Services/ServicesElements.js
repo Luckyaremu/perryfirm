@@ -72,6 +72,11 @@ transition: all 0.2s ease-in-out;
     width: 250px;
 }
 
+@media screen and (max-width: 700px) {
+    height: 350px;
+    width: 220px;
+}
+
 @media screen and (max-width: 480px) {
     height: 370px;
     width: 190px;
@@ -101,12 +106,23 @@ margin-bottom: 10px;
 
 @media screen and (max-width: 768px) {
     height: 160px;
-    width: 180px;
+    width: 290px;
 }
+
+@media screen and (max-width: 760px) {
+    height: 160px;
+    width: 169px;
+}
+
+@media screen and (max-width: 375px) {
+    height: 160px;
+    width: 168px;
+} 
+
 @media screen and (max-width: 320px) {
     height: 160px;
-    width: 140px;
-}
+    width: 145px;
+} 
 `;
 
 
