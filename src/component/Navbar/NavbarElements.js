@@ -30,14 +30,12 @@ max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkR)`
-justify-self: flex-start;
 cursor: pointer;
-font-size: 1.5rem;
-width: 112pxpx;
 display: flex;
-margin-left: 24px;
-font-weight: bold;
-text-decoration: none;
+width: 50px;
+height: 50px;
+margin-right: 20px;
+margin-top: 15px; 
 
 @media screen and (max-width: 320px) {
     width: 50px;
