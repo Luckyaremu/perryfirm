@@ -40,7 +40,7 @@ font-weight: bold;
 text-decoration: none;
 
 @media screen and (max-width: 320px) {
-    width: 200px;
+    width: 150px;
 }
 `;
 
