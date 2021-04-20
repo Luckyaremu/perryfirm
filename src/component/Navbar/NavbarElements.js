@@ -32,17 +32,17 @@ max-width: 1100px;
 export const NavLogo = styled(LinkR)`
 cursor: pointer;
 display: flex;
-width: 50px;
+width: 5px;
 height: 50px;
 margin-right: 20px;
 
 @media screen and (max-width: 320px) {
-    width: 50px;
+    width: 5px;
 }
 `;
 
 export const Logoimg = styled.div`
-width: 50px;
+width: 5px;
 height: 50px;
 cursor: pointer;
 display: flex;
@@ -50,7 +50,7 @@ margin-right: 20px;
 margin-top: 15px; 
 
 @media screen and (max-width: 320px) {
-    width: 50px;
+    width: 5px;
 }
 `
 
