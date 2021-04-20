@@ -1,8 +1,7 @@
 import React from 'react';
-import {Button} from "../ButtonElement";
 import {InfoContainer, InfoWrapper, InfoRow, Column1,
         TextWrapper, TopLine, Heading, Subtitle,
-        BtnWrap, Column2, ImgWrap, Img} from "./InfoElements.js"
+     Column2, ImgWrap, Img} from "./InfoElements.js"
 
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
@@ -17,7 +16,6 @@ headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) =
                                 <TopLine> {topLine} </TopLine>
                                 <Heading lightText={lightText}> {headline} </Heading>
                                 <Subtitle darkText={darkText}> {description} </Subtitle>
-                               
                             </TextWrapper>
                        </Column1>
                        <Column2>

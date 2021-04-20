@@ -42,6 +42,19 @@ margin-top: 15px;
 }
 `;
 
+export const Logoimg = styled.div`
+width: 50px;
+height: 50px;
+cursor: pointer;
+display: flex;
+margin-right: 20px;
+margin-top: 15px; 
+
+@media screen and (max-width: 320px) {
+    width: 50px;
+}
+`
+
 
 export const MobileIcon = styled.div`
  display: none;
