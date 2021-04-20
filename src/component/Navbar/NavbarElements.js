@@ -42,13 +42,9 @@ margin-top: 20px;
 }
 `;
 
-export const Logoimg = styled.img`
-max-width: 115px;
-height: 50px;
-cursor: pointer;
-display: flex;
-margin-right: 20px;
-margin-top: 20px; 
+export const Logoimg = styled.div`
+width: 100px;
+margin-right: 216px; 
 `
 
 
