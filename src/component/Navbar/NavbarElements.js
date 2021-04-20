@@ -39,6 +39,9 @@ margin-right: 20px;
 @media screen and (max-width: 320px) {
     width: 5px;
 }
+@media screen and (max-width: 768px) {
+    width: 5px;
+}
 `;
 
 export const Logoimg = styled.div`
@@ -50,6 +53,10 @@ margin-right: 20px;
 margin-top: 15px; 
 
 @media screen and (max-width: 320px) {
+    width: 5px;
+}
+
+@media screen and (max-width: 768px) {
     width: 5px;
 }
 `
