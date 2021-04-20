@@ -28,7 +28,7 @@ const { status , errors } = sent
       from_email: email.trim(),
       subject: "",
       phone: phone.trim(),
-      to_name: "Trena",
+      to_name: "Trena General Services",
       message: message.trim(),
     };
     emailjs
