@@ -5,7 +5,7 @@ const TextScroller = ({ text }) => {
   const [key, setKey] = useState(1);
 
   const scrolling = useSpring({
-    from: { transform: "translate(60%,0)" },
+    from: { transform: "translate(0%,0)" },
     to: { transform: "translate(-60%,0)" },
     config: { duration: 20000 },
     reset: true,

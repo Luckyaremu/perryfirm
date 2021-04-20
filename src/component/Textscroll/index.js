@@ -1,5 +1,6 @@
 import React from "react";
 import TextScroller from "./TextScroller";
+import "./style.css";
 
 const Textscroll = () => {
     return (
