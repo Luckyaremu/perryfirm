@@ -13,7 +13,7 @@ const Hero = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay="autoplay" loop muted src={"https://res.cloudinary.com/aremucamp/video/upload/v1616933261/Pexels_Videos_1474411.mp4"} />
+                <VideoBg autoPlay="autoplay" loop muted src={"https://res.cloudinary.com/aremucamp/video/upload/v1618922475/Ship_-_7338.mp4"} />
             </HeroBg>
             <HeroContent>
                 <HeroH1>
