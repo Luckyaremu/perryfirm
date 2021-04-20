@@ -5,7 +5,7 @@ import "./style.css";
 const Textscroll = () => {
     return (
       <div className="App">
-        <TextScroller text="email us on trenageneralservices@yahoo.com, call on 08032236791, 08032236791" />
+        <TextScroller text="email us on trenageneralservices@yahoo.com, or call us on +2348138066399, +2348154270788" />
       </div>
     );
 }
