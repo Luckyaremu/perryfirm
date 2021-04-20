@@ -35,7 +35,6 @@ display: flex;
 width: 50px;
 height: 50px;
 margin-right: 20px;
-margin-top: 15px; 
 
 @media screen and (max-width: 320px) {
     width: 50px;
