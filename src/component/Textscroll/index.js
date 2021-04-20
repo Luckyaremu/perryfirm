@@ -4,7 +4,7 @@ import TextScroller from "./TextScroller";
 const Textscroll = () => {
     return (
       <div className="App">
-        <TextScroller text="Long long text to scroll" />
+        <TextScroller text="email us on trenageneralservices@yahoo.com, call on 08032236791, 08032236791" />
       </div>
     );
 }
