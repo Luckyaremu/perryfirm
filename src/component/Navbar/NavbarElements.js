@@ -35,32 +35,20 @@ display: flex;
 width: 5px;
 height: 50px;
 margin-right: 20px;
+margin-top: 20px;
 
 @media screen and (max-width: 320px) {
     width: 5px;
-    display: flex;
-}
-@media screen and (max-width: 768px) {
-    width: 5px;
-    display: flex;
 }
 `;
 
-export const Logoimg = styled.div`
-width: 5px;
+export const Logoimg = styled.img`
+max-width: 115px;
 height: 50px;
 cursor: pointer;
 display: flex;
 margin-right: 20px;
-margin-top: 15px; 
-
-@media screen and (max-width: 320px) {
-    width: 5px;
-}
-
-@media screen and (max-width: 768px) {
-    width: 5px;
-}
+margin-top: 20px; 
 `
 
 

@@ -28,11 +28,9 @@ const toggleHome = () => {
         <>
         <Nav scrollNav= {scrollNav}>
             <NavbarContainer>
-                <Logoimg to="/" onClick={toggleHome}> 
-                <NavLogo>
-                <img src={logo} alt="Logo" /> 
+                <NavLogo to="/" onClick={toggleHome}> 
+                <img src={logo} alt="Logo"  className="Logoimg"/> 
                 </NavLogo>
-                </Logoimg>
                 
                 <MobileIcon onClick={toggle}>
                     <FaBars />
