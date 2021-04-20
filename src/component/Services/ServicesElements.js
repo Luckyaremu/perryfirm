@@ -90,7 +90,7 @@ transition: all 0.2s ease-in-out;
 
 @media screen and (max-width: 360px) {
     height: 420px;
-    width: 160px;
+    width: 158px;
 }
 
 @media screen and (max-width: 320px) {

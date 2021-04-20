@@ -28,13 +28,13 @@ const { status , errors } = sent
       from_email: email.trim(),
       subject: "",
       phone: phone.trim(),
-      to_name: "Aremu Lucky Baba",
+      to_name: "Trena General Services",
       message: message.trim(),
     };
     emailjs
       .send(
-        "service_esrguyo",
-        "template_kw646lc",
+        "service_rk5zfwq",
+        "template_m654316",
         templateParams,
         "user_MdOnEij4EHzA96hClYQc2"
       )
