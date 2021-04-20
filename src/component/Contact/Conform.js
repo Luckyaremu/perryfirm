@@ -28,15 +28,15 @@ const { status , errors } = sent
       from_email: email.trim(),
       subject: "",
       phone: phone.trim(),
-      to_name: "Trena General Services",
+      to_name: "Trena",
       message: message.trim(),
     };
     emailjs
       .send(
-        "service_rk5zfwq",
+        "service_ettpigt",
         "template_m654316",
         templateParams,
-        "user_MdOnEij4EHzA96hClYQc2"
+        "user_tizLce1QF8WhxznUyk4RI"
       )
       .then(() => {
         setisSubmit(false)
