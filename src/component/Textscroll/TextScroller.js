@@ -10,6 +10,7 @@ const TextScroller = ({ text }) => {
     config: { duration: 20000 },
     reset: true,
     //reverse: key % 2 == 0,
+    
     onRest: () => {
       setKey(key + 1);
     }
