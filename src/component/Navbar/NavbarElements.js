@@ -38,9 +38,11 @@ margin-right: 20px;
 
 @media screen and (max-width: 320px) {
     width: 5px;
+    display: flex;
 }
 @media screen and (max-width: 768px) {
     width: 5px;
+    display: flex;
 }
 `;
 

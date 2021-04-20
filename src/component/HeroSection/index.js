@@ -24,7 +24,7 @@ const Hero = () => {
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="services" onMouseEnter={onHover} onMouseLeave={onHover}>
-                        Our Service {hover ? <ArrowForward /> : <ArrowRight />}
+                        Our Services {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
