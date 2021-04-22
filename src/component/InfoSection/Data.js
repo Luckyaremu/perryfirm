@@ -22,7 +22,7 @@ export const homeObjThree = {
     lightTextDesc: false,
     topLine: "Trena General Services",
     headline: "Our service is top notch",
-    description: "@Trena General Services we are available to service you better, we wants you to know that our service is effiecient and affordable with no hidden charges and also we process our client request within a stipulated time depending",
+    description: "@Trena General Services we are available to service you better, we wants you to know that our service is effiecient and affordable with no hidden charges and also we process our client request within a stipulated time depending on client",
     buttonLabel: "Get started",
     imgStart: false,
     img: require("../../images/office.jpg").default,
