@@ -3,7 +3,7 @@ import styled from "styled-components";
 
     export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) =>(lightBg ? '#fff' : '#010606')};
+    background: ${({lightBg}) =>(lightBg ? '#fff' : 'linear-gradient(rgba(135, 135, 156, 0.959),rgba(79, 97, 112, 0.979), rgba(79, 97, 112, 0.979), rgba(79, 97, 112, 0.979),rgba(79, 97, 112, 0.979), #fff, #fb9a00) ')};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;

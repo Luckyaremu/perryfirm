@@ -8,7 +8,7 @@
      description: "We have access to unlimited credible sources to make your products clearing easy, efficient and affordable without any hidden charges",
     
      imgStart: false,
-     img: require("../../images/ship.jpg").default,
+     img: require("../../images/ship-5390125_1920.jpg").default,
      alt: "Cargo",
      dark: true,
      primary: true,

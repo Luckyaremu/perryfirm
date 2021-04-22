@@ -5,7 +5,7 @@ import HeroSection from "../component/HeroSection";
 import InfoSection from "../component/InfoSection";
 import { homeObjOne, homeObjThree } from '../component/InfoSection/Data';
 import Services from '../component/Services';
-import Textscroll from "../component/Textscroll"
+import Textscroll from "../component/Textscroll";
 
 const Home = () => {
     const [ isOpen, setIsOpen ] = useState(false)
