@@ -11,12 +11,12 @@ background: #010606;
 
 
 @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1500px;
     
 }
 
 @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1800px;
 }
 `;
 
@@ -90,7 +90,7 @@ transition: all 0.2s ease-in-out;
 
 @media screen and (max-width: 360px) {
     height: 420px;
-    width: 158px;
+    width: 157px;
 }
 
 @media screen and (max-width: 320px) {
@@ -116,7 +116,7 @@ margin-bottom: 10px;
 
 @media screen and (max-width: 375px) {
     height: 160px;
-    width: 168px;
+    width: 155px;
 } 
 
 @media screen and (max-width: 320px) {

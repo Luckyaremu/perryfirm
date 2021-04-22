@@ -72,7 +72,7 @@ import styled from "styled-components";
     color: ${({lightText}) => (lightText ? "#f7f8fa" : "#010606")};
 
     @media screen and (max-width: 480px){
-        fonr-size: 32px;
+        font-size: 32px;
     }
     `;
 
