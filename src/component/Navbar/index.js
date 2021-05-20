@@ -7,7 +7,7 @@ import Logoimg from "./style.css";
 
 import { Nav, NavbarContainer, 
     NavLogo, MobileIcon, 
-    NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from "./NavbarElements";
+    NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, } from "./NavbarElements";
 
 const Navbar = ( {toggle}) => {
     const [scrollNav, setScrollNav] = useState(false)

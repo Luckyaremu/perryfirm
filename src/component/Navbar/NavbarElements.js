@@ -43,8 +43,7 @@ margin-top: 20px;
 `;
 
 export const Logoimg = styled.div`
-width: 29px;
-height: 52px;
+width: 100px;
 margin-right: 216px; 
 `
 
