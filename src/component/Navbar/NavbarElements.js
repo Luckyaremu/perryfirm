@@ -45,6 +45,10 @@ margin-top: 20px;
 export const Logoimg = styled.div`
 width: 100px;
 margin-right: 216px; 
+height: 45px;
+margin-top: 0px;
+font-weight: bolder;
+font-size: larger
 `
 
 
