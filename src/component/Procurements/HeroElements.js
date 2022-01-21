@@ -133,7 +133,7 @@ margin-bottom: 10px;
 
 
 export const ServicesH1 = styled.h1`
-font-size: 2.5rem;
+font-size: 2rem;
 color: #fff;
 margin-bottom: 64px;
 
