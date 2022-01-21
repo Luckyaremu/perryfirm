@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { Link as LinkR } from "react-router-dom";
 
 
 export const ServicesContainer = styled.div`
-height: 800px;
+height: 600px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -10,22 +11,18 @@ align-items: center;
 background: #010606;
 
 @media screen and (max-width: 820px) {
-    height: 1500px;
-    
-}
-
+    height: 150px;
+  
 @media screen and (max-width: 912px) {
-    height: 1500px;
-    
+        height: 150px;
 }
-
 @media screen and (max-width: 768px) {
-    height: 1500px;
+    height: 400px;
     
 }
 
 @media screen and (max-width: 480px) {
-    height: 1800px;
+    height: 400px;
 }
 `;
 
@@ -33,7 +30,7 @@ export const ServicesWrapper = styled.div`
 max-width: 1000px;
 margin: 0 auto;
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr;
 align-items: center;
 grid-gap: 16px;
 padding: 0 50px;
@@ -48,13 +45,13 @@ padding: 0 50px;
     padding: 0 1px;
     display: grid;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 280px;
 }
 `;
 
 export const ServicesCard = styled.div`
 background: #fff;
-height: 300px;
+height: 250px;
 width: 300px;
 display: flex;
 flex-direction: column;
@@ -162,5 +159,45 @@ text-align: center;
 
 @media screen and (max-width: 768px) {
     margin-bottom: 20px;
+}
+`
+
+export const NavBtn = styled.nav`
+display: flex;
+justify-content: center;
+margin-right: -320px;
+
+@media screen and (max-width: 360px) {
+    margin-right: -183px;
+}
+
+@media screen and (max-width: 414px) {
+    margin-right: -195px;
+}
+@media screen and (max-width: 540px) {
+    margin-right: -239px;
+}
+@media screen and (max-width: 412px) {
+    margin-right: -200px;
+}
+`;
+
+export const NavBtnLink = styled(LinkR)`
+border-radius: 50px;
+background: linear-gradient(#fb9a00,#facb22, #fff);
+white-space: nowrap;
+padding: 10px 22px;
+color: #010606;
+font-size: 16px;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+
+&:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
 }
 `;

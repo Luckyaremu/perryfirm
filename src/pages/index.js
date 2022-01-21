@@ -5,6 +5,7 @@ import HeroSection from "../component/HeroSection";
 import InfoSection from "../component/InfoSection";
 import { homeObjOne, homeObjThree } from '../component/InfoSection/Data';
 import Services from '../component/Services';
+import Procuments from "../component/Procurements"
 import Textscroll from "../component/Textscroll";
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
             <HeroSection />
             <InfoSection {...homeObjOne}/>
             <Services />
+            <Procuments />
             <InfoSection {...homeObjThree}/>
         </>
     )
