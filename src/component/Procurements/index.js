@@ -5,7 +5,7 @@ import { ServicesContainer, ServicesWrapper, ServicesH1, ServicesCard, ServicesP
 const Services = () => {
     return (
         <ServicesContainer id="services">
-            <ServicesH1> we also deals on </ServicesH1>
+            <ServicesH1> We do procurements </ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>    
                     <ServicesP><i class="fa fa-hand-o-right" aria-hidden="true"></i>  Supply of safety and protetion equipment.</ServicesP>
