@@ -72,7 +72,7 @@ transition: all 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
-    height: 350px;
+    height: 224px;
     width: 300px;
 }
 
@@ -82,34 +82,34 @@ transition: all 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 700px) {
-    height: 350px;
+    height: 258px;
     width: 220px;
 }
 
 @media screen and (max-width: 480px) {
-    height: 370px;
+    height: 256px;
     width: 190px;
 }
 
 @media screen and (max-width: 400px) {
-    height: 420px;
+    height: 274px;
     width: 170px;
 }
 
 
 @media screen and (max-width: 360px) {
-    height: 420px;
+    height: 263px;
     width: 157px;
 }
 
 @media screen and (max-width: 320px) {
-    height: 420px;
+    height: 256px;
     width: 150px;
 }
 `;
 
 export const ServicesIcon = styled.img`
-height: 160px;
+height: 400px;
 width: 250px;
 margin-bottom: 10px;
 

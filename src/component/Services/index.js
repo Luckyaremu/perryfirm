@@ -16,39 +16,32 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
                     <ServicesH2>DPR Licenses </ServicesH2>
-                    <ServicesP>@Trena general services, we can easily get you a DPR import permit to enable you perform your business efficiently within your region of permit.</ServicesP>
-                </ServicesCard>
+                 </ServicesCard>
                 
                 <ServicesCard>
                     <ServicesIcon src={Icon4}/>
-                    <ServicesH2>Logistics</ServicesH2>
-                    <ServicesP>@Trena general services, we do supplies of marine equipment.</ServicesP>
+                    <ServicesH2>Logistics and Procurements</ServicesH2>
                </ServicesCard>
                 
                 <ServicesCard>
                     <ServicesIcon src={Icon5}/>
                     <ServicesH2>Bunker Supplies</ServicesH2>
-                    <ServicesP>@Trena general services, we do your supplies at every point or place you want it.</ServicesP>
                 </ServicesCard>
-
                 
                 <ServicesCard>
                     <ServicesIcon src={Icon6}/>
                     <ServicesH2>Haulage</ServicesH2>
-                    <ServicesP>@Trena general services, we do transportation of AGO/PMS to your required destinations.</ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
                     <ServicesH2>Naval Clearance Of Vessels</ServicesH2>
-                    <ServicesP>@Trena general services, we can assit you get naval clearance to bunker your vessel.</ServicesP>
-                </ServicesCard>
+                     </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
                     <ServicesH2>Naval Armed Escort</ServicesH2>
-                    <ServicesP>@Trena general services, we help you get naval armed gaurds.</ServicesP>
-                </ServicesCard>
+                     </ServicesCard>
 
             </ServicesWrapper>
         </ServicesContainer>
